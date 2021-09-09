@@ -1,5 +1,7 @@
 # encoding: utf-8
+# Массивы с наборами мастей и достоинств
 values = ['2','3','4','5','6','7','8','9','10','J','Q','K','A']
-suits = ['Diamonds', 'Hearts', 'Clubs', 'Spades'] # ã¡¨, —¥à¢¨, Šà¥áâ¨, ¨ª¨
+suits = ['Diamonds', 'Hearts', 'Clubs', 'Spades'] # Буби, Черви, Крести, Пики
 
-puts = puts "#{values.sample} of #{suits.sample}"
+# Выведем произвольную карты, выбрав по одному элементу из массивов
+puts "#{values.sample} of #{suits.sample}"
